@@ -1,6 +1,6 @@
 # 🤝 Cómo Contribuir
 
-**Proyecto by [ID For IDeas](https://linkedin.com/company/idforideas)**
+**Proyecto by [ID For IDeas](https://idforideas.com/)**
 
 ---
 
@@ -417,4 +417,4 @@ Antes de enviar:
 
 **¡Gracias por contribuir!** 🎉
 
-Hecho con ❤️ por [ID For IDeas](https://linkedin.com/company/idforideas)
+Hecho con ❤️ por [ID For IDeas](https://idforideas.com/)

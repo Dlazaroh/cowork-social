@@ -1,6 +1,6 @@
 # Project Management - CoWork Social
 
-**Proyecto by [ID For IDeas](https://linkedin.com/company/idforideas)**
+**Proyecto by [ID For IDeas](https://idforideas.com/)**
 
 Documentación, planificación y gestión del proyecto.
 

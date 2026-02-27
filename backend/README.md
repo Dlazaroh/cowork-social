@@ -1,6 +1,6 @@
 # Backend - CoWork Social
 
-**Proyecto by [ID For IDeas](https://linkedin.com/company/idforideas)**
+**Proyecto by [ID For IDeas](https://idforideas.com/)**
 
 APIs standalone con datos en memoria (sin base de datos).
 

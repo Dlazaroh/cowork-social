@@ -1,6 +1,6 @@
 # Backend Python - CoWork Social
 
-**Proyecto by [ID For IDeas](https://linkedin.com/company/idforideas)**
+**Proyecto by [ID For IDeas](https://idforideas.com/)**
 
 API de Analytics con FastAPI usando datos sintéticos.
 

@@ -1,6 +1,6 @@
 # Design - CoWork Social
 
-**Proyecto by [ID For IDeas](https://linkedin.com/company/idforideas)**
+**Proyecto by [ID For IDeas](https://idforideas.com/)**
 
 Diseño UI/UX en Figma. Todo el trabajo es en la nube.
 

@@ -1,6 +1,6 @@
 # Backend Node.js - CoWork Social
 
-**Proyecto by [ID For IDeas](https://linkedin.com/company/idforideas)**
+**Proyecto by [ID For IDeas](https://idforideas.com/)**
 
 API REST con Express usando datos en memoria (arrays).
 

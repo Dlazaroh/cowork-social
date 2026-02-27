@@ -1,6 +1,6 @@
 # QA Testing - CoWork Social
 
-**Proyecto by [ID For IDeas](https://linkedin.com/company/idforideas)**
+**Proyecto by [ID For IDeas](https://idforideas.com/)**
 
 Testing y Quality Assurance del proyecto.
 

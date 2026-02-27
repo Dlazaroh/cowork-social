@@ -1,6 +1,6 @@
 # Data Analytics - CoWork Social
 
-**Proyecto by [ID For IDeas](https://linkedin.com/company/idforideas)**
+**Proyecto by [ID For IDeas](https://idforideas.com/)**
 
 Análisis de datos y visualizaciones con datos sintéticos.
 

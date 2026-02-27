@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Proyecto de Aprendizaje por [ID For IDeas](https://linkedin.com/company/idforideas)**
+**Proyecto de Aprendizaje por [ID For IDeas](https://idforideas.com/)**
 
 ![CoWork Social](https://img.shields.io/badge/CoWork-Social-blue?style=for-the-badge)
 ![ID For IDeas](https://img.shields.io/badge/ID%20For-IDeas-orange?style=for-the-badge)
@@ -423,7 +423,7 @@ Este certificado valida tu experiencia práctica y puede agregarse a tu portfoli
 
 ## 🎓 Proyecto by ID For IDeas
 
-**CoWork Social** es una iniciativa de [**ID For IDeas**](https://linkedin.com/company/idforideas) para que desarrolles skills con proyectos reales.
+**CoWork Social** es una iniciativa de [**ID For IDeas**](https://idforideas.com/) para que desarrolles skills con proyectos reales.
 
 👥 **Colaboradores**: Ver [CONTRIBUTORS.md](./CONTRIBUTORS.md)  
 📜 **Licencia**: [MIT License](./LICENSE)
