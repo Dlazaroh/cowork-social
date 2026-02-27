@@ -18,7 +18,7 @@ El **Fork** crea una copia del proyecto en tu cuenta de GitHub donde puedes hace
 
 **Cómo hacer Fork:**
 
-1. Ve al repositorio original: [github.com/idforideas/cowork-social](https://github.com/idforideas/cowork-social)
+1. Ve al repositorio original: [github.com/ID-For-Ideas-Cowork/cowork-social](https://github.com/ID-For-Ideas-Cowork/cowork-social)
 2. Haz clic en el botón **"Fork"** (esquina superior derecha)
 3. Selecciona tu cuenta personal
 4. Espera a que GitHub copie el proyecto
@@ -375,7 +375,7 @@ Antes de enviar:
 💡 Sigue los pasos en orden: Fork → Clone → Lee el README de tu área → Ejecuta el código → Completa las 3 tareas.
 
 **¿Debo hacer fork del repo original o de otro fork?**  
-✅ Siempre haz fork del repositorio ORIGINAL: `idforideas/cowork-social`
+✅ Siempre haz fork del repositorio ORIGINAL: `ID-For-Ideas-Cowork/cowork-social`
 
 **¿Solo 1 tarea está bien?**  
 ❌ No, necesitas completar las 3 tareas de tu rol.

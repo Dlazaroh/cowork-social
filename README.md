@@ -34,7 +34,7 @@
 ### 1. Clona el proyecto
 
 ```bash
-git clone https://github.com/idforideas/cowork-social.git
+git clone https://github.com/ID-For-Ideas-Cowork/cowork-social.git
 cd cowork-social
 ```
 
