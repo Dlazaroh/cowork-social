@@ -98,6 +98,11 @@ cowork-social/
 │   ├── bug-reports/         # Reportes de bugs
 │   └── automated-tests/     # Tests E2E
 │
+├── devops/                  # DevOps y automatización
+│   ├── DO-01-ci-cd/         # CI/CD workflows
+│   ├── DO-02-docker/        # Docker setup
+│   └── DO-03-monitoring/    # Monitoring y logs
+│
 └── .github/
     ├── PULL_REQUEST_TEMPLATE/  # Templates de PR por rol
     └── workflows/              # CI/CD pipelines
@@ -137,6 +142,14 @@ Solo necesitas instalar lo que tu rol requiere:
 ### QA Tester
 - **Node.js** v18+ (para tests automatizados)
 - Navegador web
+- Editor de código
+
+### DevOps Engineer
+- **Docker** - [Descargar](https://www.docker.com/get-started)
+- **Git** (requerido)
+- Cuenta en GitHub (para Actions)
+- Cuenta en Docker Hub (opcional)
+- Cuenta en UptimeRobot o similar (gratis)
 - Editor de código
 
 **Git** es requerido para todos los roles - [Descargar](https://git-scm.com/)
@@ -296,6 +309,40 @@ jupyter notebook
 - Post en LinkedIn tagueando **ID For IDeas**
 
 📖 **Instrucciones completas**: [`qa/README.md`](./qa/README.md)
+
+---
+
+### 7️⃣ DevOps Engineer
+
+**Stack**: Docker + GitHub Actions + Monitoring Tools
+
+#### ✅ Completa estas 3 tareas:
+
+1. **DO-01: CI/CD Pipeline** - GitHub Actions para testing y deploy automático
+2. **DO-02: Docker + Compose** - Dockeriza frontend y backend, docker-compose.yml funcional
+3. **DO-03: Monitoring** - Health checks, monitoreo 24/7, status page público
+
+**Cómo ejecutar:**
+```bash
+# Para Docker:
+docker-compose up -d
+docker ps
+
+# Para CI/CD:
+# Push a tu fork activa los workflows automáticamente
+
+# Para Monitoring:
+# Configura UptimeRobot o Better Uptime
+```
+
+**Entrega:**
+- GitHub Actions workflows funcionando
+- Docker Compose levanta todo el stack
+- Status page público con uptime
+- Post en LinkedIn tagueando **ID For IDeas**
+- Pull Request con documentación y links
+
+📖 **Instrucciones completas**: [`devops/README.md`](./devops/README.md)
 
 ---
 

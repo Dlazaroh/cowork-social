@@ -80,6 +80,9 @@ cat docs/README.md
 
 # QA Testing
 cat qa/README.md
+
+# DevOps
+cat devops/README.md
 ```
 
 **📖 Lee TODO el README:** Tareas, estructura de archivos, ejemplos, deploy, recursos.
@@ -224,6 +227,43 @@ npx cypress open
 ```
 
 **Lee:** `qa/README.md` para las 3 tareas (QA-01, QA-02, QA-03)
+
+---
+
+#### 🚀 DevOps Engineer
+
+**Instala Docker:**
+
+```bash
+# Verifica si Docker está instalado
+docker --version
+docker-compose --version
+
+# Si no está instalado, descarga desde:
+# https://www.docker.com/get-started
+```
+
+**Setup inicial:**
+
+```bash
+cd devops
+
+# Verifica que puedas construir imágenes
+docker-compose build
+
+# Levanta servicios
+docker-compose up -d
+
+# Para CI/CD: 
+# - GitHub Actions se ejecuta automáticamente al hacer push
+# - Configura secrets en GitHub Settings si es necesario
+
+# Para Monitoring:
+# - Crea cuenta en UptimeRobot.com o BetterUptime.com
+# - Configura monitors después de hacer deploy
+```
+
+**Lee:** `devops/README.md` para las 3 tareas (DO-01, DO-02, DO-03)
 
 ---
 
