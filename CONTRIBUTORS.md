@@ -23,6 +23,10 @@ Formato:
 - **Ana García** - [@anagarcia](https://github.com/anagarcia) - FE-01: Tema Oscuro
 -->
 
+- **José Hernández** - [@JrHk112](https://github.com/JrHk112) - FE-01, FE-02, FE-03
+- **Cristian Manuel Landeira** - [@cristian03131](https://github.com/cristian03131) - FE-01, FE-02, FE-03
+- **Alicia Zuñega** - [@alizunega](https://github.com/alizunega) - FE-01, FE-02, FE-03
+
 ### Backend Developers
 
 <!-- Ejemplo:
@@ -54,6 +58,10 @@ Formato:
 -->
 
 ---
+
+### Devops
+- **Juan Ramirez** - [@juanRCoder](https://github.com/juanRCoder) - DO-01, DO-02, DO-03
+
 
 ## Cómo Agregarte
 
