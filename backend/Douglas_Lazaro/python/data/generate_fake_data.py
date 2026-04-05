@@ -2,7 +2,6 @@ from faker import Faker
 from models.schemas import Engagement
 from datetime import datetime, timedelta
 import random
-import statistics
 from models.schemas import (AnalyticsOverview, DailyActiveUsers, ActiveUsersResponse, EngagementResponse, TopPost, TopPostsResponse, UserStats, UserEngagement, UserEngagementResponse, BestTimeResponse, UserComparison)
 
 fake = Faker('es_ES')
@@ -56,6 +55,7 @@ def generate_top_posts_data(limit: int = 10) -> TopPostsResponse:
 def generate_user_stats_data(user_id: str) -> UserStats:
     return UserStats(
         user_id=user_id,
+        username=fake.user_name(),
         total_posts=fake.random_int(min=10, max=100),
         total_likes=fake.random_int(min=100, max=10000),
         total_comments=fake.random_int(min=20, max=200),

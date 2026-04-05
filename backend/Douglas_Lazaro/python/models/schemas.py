@@ -28,7 +28,7 @@ class EngagementResponse(BaseModel):
     data: List[Engagement]
 
 class TopPost(BaseModel):
-    id: str
+    id: str = Field(...,min_length=1, max_length=20 ,pattern=r'^[a-zA-Z0-9_-]+$')
     content: str
     author: str
     likes: int
@@ -39,7 +39,7 @@ class TopPostsResponse(BaseModel):
     top_posts: List[TopPost]
 
 class UserStats(BaseModel):
-    user_id: str
+    user_id: str = Field(...,min_length=1, max_length=20 ,pattern=r'^[a-zA-Z0-9_-]+$')
     username: str
     total_posts: int
     total_likes: int
@@ -52,18 +52,18 @@ class UserEngagement(BaseModel):
     score: float = Field(..., ge=0)
 
 class UserEngagementResponse(BaseModel):
-    user_id: str
+    user_id: str = Field(...,min_length=1, max_length=20 ,pattern=r'^[a-zA-Z0-9_-]+$')
     period: str
     trend: List[UserEngagement]
 
 class BestTimeResponse(BaseModel):
-    user_id: str
+    user_id: str = Field(...,min_length=1, max_length=20 ,pattern=r'^[a-zA-Z0-9_-]+$')
     best_day: str
     best_hour: int = Field(..., ge=0, le=23)
     recommendation: str
 
 class UserComparison(BaseModel):
-    user_id: str
+    user_id: str = Field(...,min_length=1, max_length=20 ,pattern=r'^[a-zA-Z0-9_-]+$')
     user_avg_likes: float = Field(..., ge=0)
     global_avg_likes: float = Field(..., ge=0)
     performance_percent: float = Field(..., ge=0)

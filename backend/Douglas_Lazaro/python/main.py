@@ -22,7 +22,7 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {
-        "message": "CoWork Analytics API - BE-03",
+        "message": "CoWork Analytics API - BE-03 y BE-06",
         "docs": "/docs",
         "endpoints": {
             "overview": "/api/analytics/overview",
