@@ -1,7 +1,7 @@
 
 ## 🚀 Deploy
-- Link al API: `https://tu-api.onrender.com`
-- Link a docs: `https://tu-api.onrender.com/api-docs`
+- Link al API: `https://analytics-uwyg.onrender.com/`
+- Link a docs: `https://analytics-uwyg.onrender.com/docs#/`
 
 ## 📝 Screenshots de Swagger
 - Aquí se muestran las capturas de pantalla de la interfaz de Swagger:
