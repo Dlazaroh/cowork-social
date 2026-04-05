@@ -105,6 +105,12 @@ Respuesta (201 Created):
 - Aquí se muestran las capturas de pantalla de la interfaz de Swagger:
 <div style="width:500px; height:500px; border-radius:8px; display:block; margin:auto;">
 
-![Swagger Overview](./img/docs-swagger-ui.png)
+![Swagger Comments](./img/comments.png)
+
+![Swagger Posts](./img/posts.png)
+
+![Swagger Users](./img/users.png)
+
+![Swagger Health](./img/health.png)
 
 </div>

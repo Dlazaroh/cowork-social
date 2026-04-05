@@ -7,10 +7,9 @@ const PORT = process.env.PORT || 5000;
 // Importar rutas
 const usersRouter = require('./routes/users');
 const postsRouter = require('./routes/posts');
-const healthRoutes = require("./routes/health");
-const commentsRouter = require("./routes/comments");
+const healthRouter = require("./routes/health");
+const commentsRouter = require('./routes/comments');
 const swaggerSpec = require('../docs/swagger');
-
 
 // Middleware
 app.use(cors());
@@ -22,8 +21,8 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 // Routes
 app.use('/api/users', usersRouter);                 // BE-01
 app.use('/api/posts', postsRouter);                 // BE-02
-app.use('/api/health', healthRoutes);               // BE-03
-app.use('/api', commentsRouter);                    // BE-04
+app.use('/api/health', healthRouter);               // BE-03
+app.use('/api', commentsRouter);           // BE-04
 
 // Home route
 app.get("/", (req, res) => {

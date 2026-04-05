@@ -1,6 +1,5 @@
 const express = require('express');
 const {getAllPost, getPostById, createPost, incrementPostLikes, updatePost, deletePost} = require('../api/posts');
-
 const router = express.Router();
 
 router.get('/', getAllPost);

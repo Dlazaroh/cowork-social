@@ -4,7 +4,7 @@ const {postsData:{posts}} = require('../data/mockData');
  * @swagger
  * tags:
  *   name: Posts
- *   description: API para la gestión de publicaciones y posts
+ *   description: API para la gestión de publicaciones
  */
 
 /**
@@ -118,7 +118,7 @@ const getPostById = (req,resp) => {
     else{
         resp.status(404).json({message:'Post not found'})
     }
-}
+};
 
 /**
  * @swagger
@@ -159,7 +159,7 @@ const createPost = (req,resp) => {
     const newPost ={id:posts.length + 1, ...req.body,createdAt:new Date().toDateString()};
     posts.push(newPost);
     resp.status(201).json(newPost);
-}
+};
 
 /**
  * @swagger
@@ -217,7 +217,7 @@ const incrementPostLikes = (req, resp) => {
     else{
         resp.status(404).json({message: 'post not found'});
     }
-}
+};
 
 /**
  * @swagger
@@ -268,7 +268,7 @@ const updatePost = (req,resp) => {
     else{
         resp.status(404).json({message: 'post not found'});
     }
-}
+};
 
 /**
  * @swagger
@@ -309,6 +309,6 @@ const deletePost = (req,resp) => {
     else{
         resp.status(404).json({message: 'post not found'});
     }
-}
+};
 
 module.exports={getAllPost,getPostById,createPost,incrementPostLikes,updatePost,deletePost};
