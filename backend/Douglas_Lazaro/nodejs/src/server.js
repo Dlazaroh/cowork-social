@@ -1,5 +1,4 @@
 const express = require("express");
-const cors = require("cors");
 const swaggerUi = require("swagger-ui-express");
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -12,12 +11,8 @@ const commentsRouter = require('./routes/comments');
 const swaggerSpec = require('../docs/swagger');
 
 // Middleware
-app.use(cors());
 app.use(corsOptions);
 app.use(express.json());
-
-
-
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
