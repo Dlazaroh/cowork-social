@@ -3,7 +3,7 @@ const cors = require("cors");
 const swaggerUi = require("swagger-ui-express");
 const app = express();
 const PORT = process.env.PORT || 5000;
-
+const corsOptions = require('./middleware/allowCors');
 // Importar rutas
 const usersRouter = require('./routes/users');
 const postsRouter = require('./routes/posts');
@@ -13,7 +13,10 @@ const swaggerSpec = require('../docs/swagger');
 
 // Middleware
 app.use(cors());
+app.use(corsOptions);
 app.use(express.json());
+
+
 
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
@@ -22,7 +25,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use('/api/users', usersRouter);                 // BE-01
 app.use('/api/posts', postsRouter);                 // BE-02
 app.use('/api/health', healthRouter);               // BE-03
-app.use('/api', commentsRouter);           // BE-04
+app.use('/api', commentsRouter);                    // BE-04
 
 // Home route
 app.get("/", (req, res) => {
